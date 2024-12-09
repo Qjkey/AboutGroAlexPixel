@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+    * {
+        font-family: "Merriweather";
+        text-decoration: none;
+        background-color: var(--tg-theme-secondary-bg-color);
+    }
+
+    body {
+        margin: 0;
+        color: var(--tg-theme-text-color);
+        background: var(--tg-theme-header-bg-color);
+    }
+    
+    .container {
+        max-width: 100%;
+        text-align: center;
+        background-color: var(--tg-theme-bg-color);
+        padding: 1px 0px 1px 0px;
+    }
+
+    .gap_information {
+        background-color: var(--tg-theme-section-bg-color);
+        padding: 4px 7px 4px 7px;
+        border: none;
+        border-radius: 15px;
+    }
+
+    .gap_links {
+        background-color: var(--tg-theme-section-bg-color);
+        padding: 2px 4px 2px 4px;
+        border: none;
+        border-radius: 15px;
+    }
+
+    .gap_projects {
+        background-color: var(--tg-theme-section-bg-color);
+        padding: 2px 4px 2px 4px;
+        border: none;
+        border-radius: 15px;
+    }
+
+    .img_links {
+        width: 30px;
+        bottom: 10px;
+    }
+
+    .text_links {
+        vertical-align: 8.6px;    
+        font-size: 15px;
+    }
+
+    .button_links {
+        padding: 3px 11px;
+        border: none;
+        border-radius: 6px;
+        font-size: 14px;    
+        color: var(--tg-theme-button-text-color);
+        cursor: pointer;
+        background: var(--tg-theme-button-color);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .text {
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .text_1 {
+        font-size: 20px;
+    }
+
+    .text_2 {
+        font-size: 18px;   
+        margin: 8px;
+        margin-top: 15px;    
+    }
+
+    .description_link {
+        color: var(--tg-theme-link-color);
+    }
+
+    .main {
+        max-width: 100%;
+        margin: 15px;
+        text-align: center;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About GroAlexPixel</title>
+</head>
+<body>
+    <div class="container">
+        <p class="text">Про GroAlexPixel</p>
+    </div>
+    <div class="main">
+        <p class="text_2">Краткое инфо</p>
+        <div class="gap_information">  
+            <p><strong>Я GroAlexPixel</strong> - владелец и разработчик проекта <a class="description_link" href="https://t.me/ONFO_main_bot">ONFObot</a>, редактор канала <a class="description_link" href="https://t.me/dronifs">dronifs</a></p>
+        </div>
+        <p class="text_2">Мои соцсети</p>
+        <div class="gap_links">
+            <p><img src=img/1_dronifs.png alt="" class="img_links">   <small class="text_links">   <strong>dronifs</strong> - про Telegram <a href="https://t.me/dronifs"><button class="button_links">Перейти</button></a></small></p>
+            <p><img src=img/2_dr_chat.png alt="" class="img_links">   <small class="text_links">   <strong>dronifs чат</strong> - чат канала <a href="https://t.me/dronift_chat"><button class="button_links">Перейти</button></a></small></p>
+            <p><img src=img/3_onfobot.png alt="" class="img_links">   <small class="text_links">   Новости ONFObot <a href="https://t.me/ONFOstudio"><button class="button_links">Перейти</button></a></small></p>
+            <p><img src=img/4_gapnewn.png alt="" class="img_links">   <small class="text_links">   GroAlexPixel про меня <a href="https://t.me/GroAlexPixeI"><button class="button_links">Перейти</button></a></small></p>
+            <p><img src=img/5_emoji.png alt="" class="img_links">   <small class="text_links">   Мой личный эмодзи-пак <a href="https://t.me/addemoji/GroAlexPixeI"><button class="button_links">Перейти</button></a></small></p>
+            <p><img src=img/6_stickers.png alt="" class="img_links">   <small class="text_links">   Стикер-пак про клоунов <a href="https://t.me/addstickers/dronifs"><button class="button_links">Перейти</button></a></small></p>
+        </div>
+        <p class="text_2">Мои проекты</p>
+        <div class="gap_projects">
+            <p><img src=img/3_onfobot.png alt="" class="img_links">   <small class="text_links">   <strong>ONFObot</strong> - книжный бот <a href="https://t.me/ONFOmain_bot"><button class="button_links">Перейти</button></a></small></p>
+        </div>
+    </div>
+    <script>
+        document.ondragstart = noselect;
+        document.onselectstart = noselect;
+        document.oncontextmenu = noselect;
+        function noselect() {return false;}
+    </script>
+</body>
